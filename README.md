@@ -22,6 +22,7 @@ My github can be found [here.](https://github.com/rjsweet?tab=repositories)
 * Italic
 * Image linked
 * Footnote
+### Table of Contents
 
 
 [^1]: Article referenced from [brainpickings.org](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
