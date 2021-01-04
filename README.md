@@ -17,4 +17,10 @@ My github is at https://github.com/rjsweet?tab=repositories
 
 ### Five Features of Markdown used in this page
 
+* Heading
+* Bold 
+* Italic
+* Image inserted
+* Footnote
+
 [^1]: Article referenced from [brainpickings.org](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
