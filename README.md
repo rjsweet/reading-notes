@@ -15,12 +15,13 @@ My github is at https://github.com/rjsweet?tab=repositories
 * Realize that effort is never truly wasted, but rather just another step on your path to **mastery** of a skillset. 
 ![diagram](https://i2.wp.com/www.brainpickings.org/wp-content/uploads/2012/04/taschen_informationgraphics10.jpg?zoom=1.5&w=680&ssl=1)
 
-### Five Features of Markdown used in this page
+### Features of Markdown used in this page
 
 * Heading
 * Bold 
 * Italic
-* Image inserted
+* Image linked
 * Footnote
+
 
 [^1]: Article referenced from [brainpickings.org](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
