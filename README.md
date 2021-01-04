@@ -10,9 +10,9 @@ My github can be found [here.](https://github.com/rjsweet?tab=repositories)
 
 ### Growth Mindset
 *My personal definition of the Growth Mindset as I've come to understand the concept, is the idea that your mind and perspective are capable of being developed beyond where you initially begin in life. The way you process information, the experience of learning can change by learning. Some examples of this include the following:* 
-* Challenges should be embraced rather than avoided, they give the opportunity for personal growth. [^1]
+* Challenges should be embraced rather than avoided, they give the opportunity for personal growth. 
 * When a setback occurs, even in the event of failure, you will have new information to learn from.
-* Realize that effort is never truly wasted, but rather just another step on your path to **mastery** of a skillset. 
+* Realize that effort is never truly wasted, but rather just another step on your path to **mastery** of a skillset. [^1]
 ![ Diagram ](https://i2.wp.com/www.brainpickings.org/wp-content/uploads/2012/04/taschen_informationgraphics10.jpg?zoom=1.5&w=680&ssl=1)
 
 ### Features of Markdown used in this page
