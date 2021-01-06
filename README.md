@@ -26,3 +26,10 @@ My github can be found [here.](https://github.com/rjsweet?tab=repositories)
 
 
 [^1]: Article referenced from [brainpickings.org](https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/)
+
+### Table of Contents
+[Coding Computer Notes](coders_computer.md)
+[Git Notes on Revision and The Cloud](git_notes_03_rev_cloud.md)
+[Github Notes](GITHUB.md)
+[Markdown Notes](markdown.md)
+[Notes on Text Editors](text_editor.md)
