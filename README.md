@@ -13,8 +13,8 @@ My github can be found [here.](https://github.com/rjsweet?tab=repositories)
 
 
 ### Table of Contents
-[Coding Computer Notes](coders_computer.md)
-[Git Notes on Revision and The Cloud](git_notes_03_rev_cloud.md)
-[Github Notes](GITHUB.md)
-[Markdown Notes](markdown.md)
-[Notes on Text Editors](text_editor.md)
+* [Coding Computer Notes](coders_computer.md)
+* [Git Notes on Revision and The Cloud](git_notes_03_rev_cloud.md)
+* [Github Notes](GITHUB.md)
+* [Markdown Notes](markdown.md)
+* [Notes on Text Editors](text_editor.md)
