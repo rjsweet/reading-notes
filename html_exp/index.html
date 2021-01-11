@@ -4,10 +4,56 @@
 <head>
     <!-- Is not rendered in the browser but is there to provide meta data about the content we are showing -->
   <title>Class 01</title>
+  <style>
+    /* starts with an element to select, key value pairs for specific element properties; special note, different languages will have different ways to leave notes to others in the code.*/
+    body {
+      color: red; 
+    }
+    li {
+      border-width: thin;
+      border-color: blue;
+      border-style: dotted;
+    }
+  </style>
+  
 </head>
 
 <body>
   <!-- Includes all the things that we see on the screen -->
+  <h1>Level 1 Heading</h1>
   <p>I have an important message</p>
+  <ul>
+    <!-- Unorderd List -->
+    <li>
+      <!-- List Item -->
+      Item 1
+    </li>
+    <li>
+      Item 2
+    </li>
+  </ul>
+  <ol>
+    <!-- Ordered List example -->
+    <li>Item A 
+
+    </li>
+    <li>
+      Item B
+    </li>
+
+  </ol>
+  <h2>Level 2, you can have more of these.</h2>
+  <h6>Super small</h6>
+  <script>
+    var name = prompt ('What is Your Name?');
+    var response1 = 'Your name is';
+    alert(response1 + name);
+    console.log('The users name is ' + name);
+
+    var color = prompt ('What is your favorite Color');
+    console.log('The user\'s favorite color is ' + color);
+    alert ('Your favorite Color is' + color);
+    
+  </script>
 </body>
 </html
