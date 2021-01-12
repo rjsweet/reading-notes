@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- the head is not rendered in the browser, but is there to provide meta data about the content we are showing-->
+        <title> Class 01</title><!-- this goes on the tab-->
+        <style> 
+        /* this is a css section to style the webpage 
+        Starts with an element to select, key value pairs for specific element properties*/
+            body { 
+                color: brown;
+            }
+            li{
+                background-color: crimson;
+                border-color: darkblue;
+                border-width: thin;
+                border-style: dashed;
+                color: darkgray;
+            }
+            
+            #one{
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- includes everything on the screen-->
+        <h1>Class 1 Lab</h1>
+        <p >This is a test paragraph</p>
+        <p style="color: aqua; background-color: black;">Question 1: What is your name?</p>
+        <p style="color:blanchedalmond; background-color: chocolate;">Question 2: What is your favorite color?</p>
+        <p style="color: cyan; background-color: darkblue;">Question 3: What is your favorite place in the world?</p>
+        <p style="color: darkorchid; background-color: darkseagreen;">Question 4: Pick a number, any number..</p>
+        <ul><!-- stands for un-ordered list-->
+            <li>this is the first list item</li>
+            <li>this is the second item</li>
+        </ul>
+        <ol>
+            <!-- this is an ordered list-->
+            <li> item one</li>
+            <li> item two</li>
+        </ol>
+        <h2> This is an "h2"</h2>
+        <h3> This is an "h3"</h3>
+        <h6> This is an "h6"</h6>
+        <script>
+            var response1 = prompt('What is your name');
+            var name = ('Hey there ');
+            var response2 = prompt ('What is your favorite color?');
+            var color = ('Your favorite color is ');
+            var response3 = prompt('What is your favorite place in the world?');
+            var place = (' You would really like to live in ');
+            var place2 = (' wouldnt you..?');
+            var response4 = prompt (' Pick a number.. any number');
+            var number = ('you would like to have ');
+            var banana = (' is a banana lover.. maybe. lol and you probably wish it was ');
+            alert(name + response1 + '!' + place + response3 + place2 +
+            ' And ' + number + 'a/an ' + response2 + ' llama, and ' + response4 + ' acres of land there. Am I right?!');
+            
+            console.log ('The users name is ' + response1);
+            console.log (' The users favorite color is ' + response2);console.log ( 'The Users favorite place to live is ' + response3);
+            console.log ('The users nubmer choice is ' + response4);
+
+            document.write ( response1 + banana + response2 + '. And from ' + response3);
+
+        </script>
+        
+    </body>
+</html>
