@@ -28,10 +28,10 @@ create a set of bash terminal commands that will create the following folders an
 |     |     | - folder_3_file1.html
 | - file_0.md
 
-```
-'mkdir folder1' -> creates a folder in our current terminal directory called "folder1"
 
-'cd folder1' -> moves into folder1
+`mkdir folder1` -> creates a folder in our current terminal directory called "folder1"
+
+`cd folder1` -> moves into folder1
 
 `touch folder_1_file1.html` -> create the file in the directory we just moved into.
 
@@ -123,9 +123,9 @@ git push
 // these statements always evaluate to a boolean
 
   if (true) {
-    console.log('This statement wil run)
+    console.log('This statement wil run);
   } else {
-    console.log('this statement will not run')
+    console.log('this statement will not run');
   }
 
 // == this is a way to evaluate 2 sides of a statement
@@ -192,3 +192,10 @@ switch (NumOfGuesses)  {
 
 ```
 - Arrays
+  - Let you store more than one piece of data in the same spot. 
+
+`var arrayOfNumbers = [2,4,6,8,9.10]`
+
+  - We reference the discreet items (positions in the data) in the array with an index number
+    - `arrayOfNumbers[0] ==> 2`
+    - `arrayofNumbers[5] ==> 10`
