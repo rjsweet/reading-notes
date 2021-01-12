@@ -45,14 +45,32 @@
   <h2>Level 2, you can have more of these.</h2>
   <h6>Super small</h6>
   <script>
-    var name = prompt ('What is Your Name?');
-    var response1 = 'Your name is';
-    alert(response1 + name);
-    console.log('The users name is ' + name);
+   
 
-    var color = prompt ('What is your favorite Color');
-    console.log('The user\'s favorite color is ' + color);
-    alert ('Your favorite Color is' + color);
+    // Get data from the user
+    var designation = prompt ('What is Your Designation?');
+    var respone = 'Your Designation is ';
+    // display data to the user
+    alert(respone + designation + '.');
+    // log data to your developer console
+    console.log('The user\'s Designation is ' + designation + '.');
+
+    var hail = prompt (designation + ', from where do you Hail?');
+    var resptwo = designation + ', you hail from ' + hail + '.';
+    alert (resptwo);
+    console.log('The user designated ' + designation + ' hails from ' + hail + '.');
+
+    var travel = prompt ('Hail, ' + designation + ' of ' + hail + '. Where do you travel to?');
+    var respthree = designation + ' of ' + hail + ', you travel to ' + travel + '.';
+    alert (respthree);
+    console.log('The user ' + designation + ' of ' + hail + ', travels to ' + travel + '.');
+
+    var arrival = prompt (designation + ' of ' + hail + ', heading towards ' + travel + ', when will you arrive?');
+    var respfour = 'Traveler to ' + travel + ', ' + hail + '\'s child ' + designation + ', will arrive at ' + arrival + '.';
+    alert (respfour)
+    console.log('The user ' + designation + ' of ' + hail + ', traveling to ' + travel + ', will arrive at ' + arrival + '.');
+    
+
     
   </script>
 </body>
