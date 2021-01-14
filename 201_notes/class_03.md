@@ -2,11 +2,11 @@
 
 ## Reading Notes
 
-  -Ducket html
+  - Ducket html
     -Chapter 3: “Lists” (pp.62-73)
     -Chapter 13: “Boxes” (pp.300-329)
-  -Ducket JS
-    -Review from Reading 02 - Chapter 2: “Basic JavaScript    Instructions” (pp.70-73)
+  - Ducket JS
+    - Review from Reading 02 - Chapter 2: “Basic JavaScript    Instructions” (pp.70-73)
     Chapter 4: “Decisions and Loops” from switch statements on (pp.162-182)
 
 ### Class Notes
@@ -58,37 +58,37 @@
 
   #### Questions
 
-    -How to position Elements among other elements.
+    - How to position Elements among other elements.
     - Each Element is a box. It has a height and a width which equates to a number.
     - Each different element type has different default properties for these numbers.
     
     The CSS properties to consider that control an element's box.
-    -Margin: Space between the element content, and any element adjacent to it. 
-    -Padding: The space around the content itself and it's surrounding box. ((background colors will be 'behind' this? Look this up. Also look up the alterable nature of the individual properties.))
+    - Margin: Space between the element content, and any element adjacent to it. 
+    - Padding: The space around the content itself and it's surrounding box. ((background colors will be 'behind' this? Look this up. Also look up the alterable nature of the individual properties.))
     -Border: Includes size, style and color; "thin, solid, black" A line (of various widths), around just the content.
-    -Height + Width: the amount of space the actual content takes up.
+    - Height + Width: the amount of space the actual content takes up.
         
-        -reference CSS2 Cheat Sheet in class repository-
+        - reference CSS2 Cheat Sheet in class repository-
           -also https://css-playground.com/view/53/box-model-introduction-playground 
           - also https://css-tricks.com/fighting-the-space-between-inline-block-elements/
     
     Other things to look up
 
-      -"reset css"
-      -" how to clear floats in css"
+      - "reset css"
+      - " how to clear floats in css"
 
 ## Formal JS Logic
 
-  -What goes inside of those parenthesis of a conditional statement.
-  -Truthy vs Falsey; these are things that are not specifically true or false that js thinks are true or false. 
-    -Booleans: true and false. 1 or 0.
-    -JS is wierd and has this idea of things that evaluate to true / false without being exactly True or False.
-      -Truthy
-        -true
-        -numbers 1 or more, as well as 1 or more negative numbers will evaluate to true
+  - What goes inside of those parenthesis of a conditional statement.
+  - Truthy vs Falsey; these are things that are not specifically true or false that js thinks are true or false. 
+    - Booleans: true and false. 1 or 0.
+    - JS is wierd and has this idea of things that evaluate to true / false without being exactly True or False.
+      - Truthy
+        - true
+        - numbers 1 or more, as well as 1 or more negative numbers will evaluate to true
         - strings that are not empty
         -'0' will evaluate to true
-      -Falsey
+      - Falsey
         - False
         - 0
         - '' empty strings
@@ -96,7 +96,7 @@
         - undefined
         - NaN "Not a Number"
 
-  -Logical operators
+  - Logical operators
     -! not something can be added to a true or false such as !true or !false effectively "flipping" the truth or falsehood of the statement.
     -&& two side of a statement need to be true / truthy
     -|| only one side of a statement needs to be true / truthy
@@ -126,7 +126,7 @@ while (!answer) {
 }
 console.log('thank you');
 ```
-    -for loop: 
+    - for loop: 
 ```javascript
 // for loop syntax: initializer / condition for the loop / incrementer, the thing we want to occur after every loop
 for (var i = 0; i < 10; i++) {
