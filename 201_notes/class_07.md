@@ -140,15 +140,3 @@ tokyo.speak();
   - There's not really a column element itself, more likes stacks of row
   - Each row is made of data cells, and if one row appears above another in your code, they will stack 
 
-```html
-<table>
-  <tr>
-    <td>One</td>
-    <td>Two</td>
-  </tr>
-  <tr>
-    <td>Three</td>
-    <td>four</td>
-  </tr>
-</table>
-```
