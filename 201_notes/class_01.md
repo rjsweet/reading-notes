@@ -47,6 +47,9 @@ tree    displayes directory as tree layout with all files
 
 'code .' : open current directory in VSL workspace
 
+clear   clears terminal screen of prior entries and information.
+
+live-server displays current file as web page. ctrl+C to exit function. 
 
 
 ## VS Code
@@ -54,4 +57,27 @@ tree    displayes directory as tree layout with all files
 editor.tabSize = 2
 eitor.detectIndentation = true
 editor.wordWrap = on
+
+## Lab01 Demo Notes
+
+" <!DOCTYPE html>" tells the browser reading the file that the following text is html. Browser doesn't necessarily see the file, but rather the text in the file?
+
+- What is the bare minimum frame of a web page? 
+
+html
+<!Doctype html>
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+</body>
+</html>
+``` 
+
+
+### Things to look up later
+
+- xml language
 
