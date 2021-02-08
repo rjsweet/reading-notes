@@ -2,6 +2,13 @@
 
 ## Ducket HTML
         1. HTML Chapter 1: "Structure"
+                - HTML pages are text documents. 
+                - HTML uses tags (characters that sit inside angled brackets) to give the information they surround special meaning.
+                - Tages are often referred to as elements.
+                - Tags usually come in pairs. The opening tag denotes the start of a piece of content; the closing tag denotes the end.
+                - Opening tags can carry attributes, which tell us more about the content of that element. 
+                - Attributes require a name and a value.
+                - To learn HTML you need to know what tags are available for you to use, what they do, and where they can go. 
         2. Chapter 8: "Extra Markup"
         3. Chapter 17 "HTML5 Layout"
         4. Chapter 18: "Process & Design"
