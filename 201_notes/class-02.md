@@ -13,8 +13,8 @@
   -Chapter 2: "Basic JavaScript Instructions" (53-84)
   Script is a series of instructions your computer follows. The instructions within the script are called **statements**. JavaScript consists of statements, curly brackets to indicate code blocks, and directions on which code should be run based on the scenario.
 
-Write comments to explain what your code does. Multiple line comments are pink bracketed with /* and */. Single line comments are grey and follow //
-  -Chapter 4: "Decisions and Loops" *only up to the section on switch statements* (145-162)
+  Write comments to explain what your code does. Multiple line comments are pink bracketed with /* and */. Single line comments are grey and follow //
+  -Chapter 4: "Decisions and Loops"  (145-162)
 
 
 
