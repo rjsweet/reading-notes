@@ -4,9 +4,16 @@
 
 -HTML
   -Chapter 2:"Text" (40-61)
+  * Superscript & Subscript: `<sup> & <sub>`, sup is like 'to the power of' whereas sub is the 2 in 'CO2'
+  * White Space: A method used in order to make code easier to read
   -Chapter 10: "Introducing CSS" (226-245)
+  For CSS, imagine each of your HTML elements in a box. Remember, block level items start on a new line, like h1-h6, p, and div. Inline level elements flow within the text, like b, img, em, span. CSS allows you to create rules that control the way each individual box is presented. 
+
 -JS
   -Chapter 2: "Basic JavaScript Instructions" (53-84)
+  Script is a series of instructions your computer follows. The instructions within the script are called **statements**. JavaScript consists of statements, curly brackets to indicate code blocks, and directions on which code should be run based on the scenario.
+
+Write comments to explain what your code does. Multiple line comments are pink bracketed with /* and */. Single line comments are grey and follow //
   -Chapter 4: "Decisions and Loops" *only up to the section on switch statements* (145-162)
 
 
