@@ -4,7 +4,16 @@
 
   - Ducket html
     -Chapter 3: “Lists” (pp.62-73)
+    * **Ordered Lists**: `<ol>` as the parent an `<li>` as the children. Ordered Lists show up as a numbered list.
+    * **Unordered Lists**: `<ul>` as the parent and `<li>` as the children. Use CSS list-style-type: to change the aesthetic of your bullets
+    * **Definition Lists**: `<dl>` is the parent, `<dt>` is the term, and `<dd>` is the definition
+    * You can nest lists within lists i.e. tabbed bullets within an unordered list with be a `<ul>` within a `<ul>`
     -Chapter 13: “Boxes” (pp.300-329)
+    * **Box Dimensions** - width, height: 
+      * pixels: most popular because it provides a lot of control
+      * percentages: sizes box relative to the size of the browser window or container it's inside of
+       * ems: size of the box is based on the size of text within it
+        * **Limiting width** - min-width, max-width: max-width property to ensure lines of text do not appear too wide within a big browser window, and you can use the min-width property to make sure that they do not appear too narrow.
   - Ducket JS
     - Review from Reading 02 - Chapter 2: “Basic JavaScript    Instructions” (pp.70-73)
     Chapter 4: “Decisions and Loops” from switch statements on (pp.162-182)
