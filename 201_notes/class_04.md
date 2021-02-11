@@ -2,10 +2,75 @@
 
   - Ducket HTML
     - Chapter 4: "Links" ( pp.74-93)
+      * Links allow you to move from one web page to another. Links are created using the a element. Inside the opening a element, you put an href and then the link you want to go to, and then close the opening tag. Then before the closing a tag, put the text that the user clicks on. Each section of a website should be put into a different folder in order to organize your code. Children are a folder that is inside the root, grandchildren are folders within a folder within the root, etc. web servers are usually set up to return index.html if nothing is found. Relative urls can be used if referencing files and files in your own computer. Linking an email can be done with the mailto after an href. The target “_blank” attribute can be used to open a link to a new window. Linking within the same page can be done by href to the id of an element. Linking to a specific part of another website is also possible by using the link to the website followed by the element id.
     - Chap 15: "Layout" (pp. 358-404)
+      * CSS treats each HTML item like a box
+      * There are block-level boxes and inline boxes
+      * It can be helpful to put grouped items into <divs>
+    ### Controlling positions of elements
+      * Normal Flow: Default. paragraphs appear one after the other down the page
+      * Relative Positioning: moves elements from default to top, right, bottom, or left of where it would have been placed.
+      * Absolute Positioning: position elements in relation to its containing element. 
+      * Fixed Positioning: similar to absolute, but moves element in relation to the browser window. Good for Headings & Nav bars
+      * Floating elements: Allows you to move elements far left or right. Be sure to also use the width property to indicate how wide the floated element should be. Good for images and blockquotes. Often paired with the **clear** element. You can clear left, right, both, or none. 
+
+      You might have to use **box offset** property to tell the browser how far from the top or bottom and left or right it should be placed. 
+
+      **z-index** property allows you to control which box appears on top. Known as **stacking context**. 
+
+      Parents of floated elements solution: overflow property is given a value auto & the width property is set to 100%. 
+
+      Giving organization with the look of columns is a nice touch. Best practice is to:
+      * Assign HTML div element `class=column1of2` and `class=column2of2` etc.... Then assign a width, float, and margin.
   - Ducket JS
     - Chapt 3 Functions, Methods, and Objects" (pp. 86-99 only)
-    - Article: "6 Reasons for Pair Programming"
+      ### What is a function?: A function lets you group a series of statements together to perform a specific task. 
+      Statements in a function aren't alway executed when the page loads. For example, you might not want a task to run until the user clicks on a specific element on the page. 
+
+      Steps the function needs to perform are packaged in a code block
+
+      Code blocks consist of one or more stastatementstement contained within curly braces. Some functions need information or **parameters**. When your function provides an answer, this is known as a **return value**. 
+
+      Most programming languages depend on a name/value pairing. the name is like a variable name i.e. variableName, and the value is the statement in the code block. When you call a function by its name, the value will run. 
+
+    ### Declaring a Function
+    **Function Declaration**: To create a function, you give it a name and then write the statements needed to achieve its task inside the curly braces. 
+    ![delcaring a function](images/IMG_7200.jpeg)
+
+    ### Calling a Function 
+    Having declared the function, you can then execute all of the statements between its curly braces with just one line of code. This is known as **calling the function**. 
+    ![calling a function](images/IMG_7201.jpeg)
+
+    ### Declaring Functions that need Information
+    Sometimes you need specific information to perform a task. When you do, you declare the function with **parameters**. They act kind of like variable names. 
+    ![calling a function](images/IMG_7202.jpeg)
+    Argument as values: 
+    ```
+    getArea(3, 5)
+    ```
+    Arguments as variables: 
+    ```md
+    wallWidth = 3;
+    wallHeight = 5;
+    getArea(wallWidth, wallHeight)
+    ```
+    ### Calling Functions that need Information
+    **Parameters vs arguments**: 
+      * Parameters: words that act like variables i.e. width and height
+      * Arguments: values that you pass into code like getArea(wallWidth, wallHeight)
+
+    ### Getting a Single Values out of a Function
+    ![calling a function](images/IMG_7203.jpeg)
+    Inside this function, a variable called **area** is created which holds the calculated area of the box. The **return** keyword is used to return a value to the code that called the function. **wallOne** area is 15, which was calculated by the calculatedArea(). **wallTwo** has the area of 40. This shows how the same function can be used to perform the same step with different values
+
+    ### Getting Multiple values out of a Function
+    Functions can return more than one value using an array
+    ![calling a function](images/IMG_7204.jpeg)
+    Multiple variables are assigned and calculated within the function. getSize can then be called from the function. You are basically using the function to make calculations for you once it's called. 
+
+    ### Anonymous Functions & Function Expressions
+    Function Declaration: creates a function you can call later in your code. To call on this function later, you would use `area()`
+- Article: "6 Reasons for Pair Programming"
 
 ## Class Warm Up
 
