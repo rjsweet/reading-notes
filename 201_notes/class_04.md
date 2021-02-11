@@ -35,15 +35,15 @@
 
     ### Declaring a Function
     **Function Declaration**: To create a function, you give it a name and then write the statements needed to achieve its task inside the curly braces. 
-    ![delcaring a function](images/IMG_7200.jpeg)
+    
 
     ### Calling a Function 
     Having declared the function, you can then execute all of the statements between its curly braces with just one line of code. This is known as **calling the function**. 
-    ![calling a function](images/IMG_7201.jpeg)
+    
 
     ### Declaring Functions that need Information
     Sometimes you need specific information to perform a task. When you do, you declare the function with **parameters**. They act kind of like variable names. 
-    ![calling a function](images/IMG_7202.jpeg)
+    
     Argument as values: 
     ```
     getArea(3, 5)
@@ -60,12 +60,12 @@
       * Arguments: values that you pass into code like getArea(wallWidth, wallHeight)
 
     ### Getting a Single Values out of a Function
-    ![calling a function](images/IMG_7203.jpeg)
+    
     Inside this function, a variable called **area** is created which holds the calculated area of the box. The **return** keyword is used to return a value to the code that called the function. **wallOne** area is 15, which was calculated by the calculatedArea(). **wallTwo** has the area of 40. This shows how the same function can be used to perform the same step with different values
 
     ### Getting Multiple values out of a Function
     Functions can return more than one value using an array
-    ![calling a function](images/IMG_7204.jpeg)
+    
     Multiple variables are assigned and calculated within the function. getSize can then be called from the function. You are basically using the function to make calculations for you once it's called. 
 
     ### Anonymous Functions & Function Expressions
