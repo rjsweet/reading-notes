@@ -164,3 +164,13 @@ console.log(arrayLocal); // we get errors for these because they are defined loc
 - How? The driver, will fork the navigator's project repo on github, and clone it down to their pc; they will both then do work on the project. 
   - a fork is an exact copy of someone elses repository, but under your github account. 
   - After work is completed you make a pull request to merge the code that you worked on together back into the original persons repo. (navigator being the originator)
+
+## Coding tricks
+
+select + shift + tab undo indentation
+
+cmd + Dx3 after highlighting will show every piece of text with that same name. 
+
+D.R.Y. : Don't repeat yourself. 
+
+refactoring : means updating the source code without changing the behaviour of the application. Refactoring helps you keep your code solid, dry, and easy to maintain.
