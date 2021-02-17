@@ -86,23 +86,7 @@ Objects inside an Array
 + Document Object DOM
 + Global Javascript Object
 
-![Browser Object](228.png)
 
-![Document Object DOM](229.png)
-
-![Global Javascript Object](230.png)
-
-![Window Object](231.png)
-
-![Document Object ](232.png)
-
-![Global Object STRING](233.png)
-
-![Global Object NUMBER](234.png)
-
-![Global Object MATH](235.png)
-
-![Global Object DATE](236.png)
 
 ### The Browser Object Model: the Window Object
 
