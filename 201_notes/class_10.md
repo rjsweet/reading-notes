@@ -37,3 +37,28 @@ Here are a selection of practical tips that you can try to use when debugging yo
 ## CSS 
  - Flex vs float
  
+## Class notes
+
+
+* Hoisting: Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
+  - 
+* Scope: What level of the code.
+    - Global: 
+    - Local/function: 
+    -variable shadowing
+
+    var and let use different scopes.  let and const are block scoped. 
+    Main difference is scoping rules. Variables declared by var keyword are scoped to the immediate function body (hence the function scope) while let variables are scoped to the immediate enclosing block denoted by { } (hence the block scope).
+    While variables declared with var keyword are hoisted (initialized with undefined before the code is run) which means they are accessible in their enclosing scope even before they are declared:
+    let variables are not initialized until their definition is evaluated. Accessing them before the initialization results in a ReferenceError. Variable said to be in "temporal dead zone" from the start of the block until the initialization is processed.
+
+Creating global object property
+At the top level, let, unlike var, does not create a property on the global object:
+
+var foo = "Foo";  // globally scoped
+let bar = "Bar"; // globally scoped
+
+console.log(window.foo); // Foo
+console.log(window.bar); // undefined
+Redeclaration
+In strict mode, var will let you re-declare the same variable in the same scope while let raises a SyntaxError.
